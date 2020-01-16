@@ -1,0 +1,76 @@
+/*  add css in a different file  */
+  /* then add the file name using "link" in the head of the original file */
+  
+    h1 {
+        color: darkslategrey;
+        font-size: 48px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top:20px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border: 2px solid grey;
+        border-color: indianred;
+        border-style: dotted;
+        border-radius: 60%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: ivory;
+        opacity: 90%;
+
+    }
+    h2, h3 {
+        color: slategray;
+        font-size: 24px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: wheat;
+
+    }
+    p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        opacity: 80%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    img {  
+        height: 320px;
+        /* width: 100px; */
+    }
+    em {
+        text-transform: uppercase;
+        font-style: initial;
+    }
+    body {
+        background-color: wheat;
+        background-image: url(pattern.jpg);
+    }
+   /* you can use IDs for unique styling, but you can only have one of them on the page
+   what html will do is look for an element with the id of first on the page by using a hashtag */
+    #first {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    /* if you want to create a class of styling (for repeat use), then use classes with dots*/
+    .right{
+        text-align: right;
+    }
+    .tacos{
+        color:saddlebrown;
+    }
+    .salmon{
+        color: salmon;
+    }
+    .big{
+        font-size: 32px;
+    }
+    /* this is for when big means something else when its inside a taco element  */
+    .tacos .big {
+        font-size: 40px;
+    }
